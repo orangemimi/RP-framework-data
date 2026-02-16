@@ -16,7 +16,7 @@ Generates the main figures used in the paper, including:
 
 > Note: **Fig. 14** is generated from the **Case 1 evaluation notebook** (see `case1/Evaluation*.ipynb`).
 
-### `table1&2/`
+### `table2&3/`
 This folder contains the results used to produce **Table 1** and **Table 2**.
 
 The table results are organised by output type and data type:
@@ -56,6 +56,6 @@ These two folders contain the evaluation outputs for the **two real-world case s
 
 ## Quick Start
 1. Open and run `Figures/fig.ipynb` to reproduce **Fig. 2, 6, 7, 8, 12, and 13**.
-2. Use the corresponding folders under `table1&2/` to locate the data for each table and scenario.
+2. Use the corresponding folders under `table2&3/` to locate the data for each table and scenario.
 3. Run the notebook in `case1/` (the `Evaluation*.ipynb`) to reproduce **Fig. 14** and the Case 1 evaluation outputs.
 4. Check `case2/` for the evaluation results of **Case 2** in the manuscript.
