@@ -1,10 +1,10 @@
 # RP-FRAMEWORK-DATA
 
-This repository contains the data and notebooks used to reproduce the figures and tables in our reproduction-probability (RP) evaluation study.
+This repository contains the data and notebooks used to reproduce the figures and tables reported in the manuscript Quantifying reproducibility to support reliable geo-modelling research.
 
 ## Repository Structure
 
-### `fig.ipynb`
+### `Figures/fig.ipynb`
 Generates the main figures used in the paper, including:
 
 - **Fig. 2**
@@ -12,6 +12,9 @@ Generates the main figures used in the paper, including:
 - **Fig. 7**
 - **Fig. 8**
 - **Fig. 12**
+- **Fig. 13(a-d)**
+
+> Note: **Fig. 14** is generated from the **Case 1 evaluation notebook** (see `case1/Evaluation*.ipynb`).
 
 ### `table1&2/`
 This folder contains the results used to produce **Table 1** and **Table 2**.
@@ -52,6 +55,7 @@ These two folders contain the evaluation outputs for the **two real-world case s
 - If you want the combined uncertainty results (including epistemic effects), use the `has-noisy/` folders.
 
 ## Quick Start
-1. Open and run `fig.ipynb` to reproduce figures.
+1. Open and run `Figures/fig.ipynb` to reproduce **Fig. 2, 6, 7, 8, 12, and 13**.
 2. Use the corresponding folders under `table1&2/` to locate the data for each table and scenario.
-3. Check `case1/` and `case2/` for the evaluation results of the two manuscript case studies.
+3. Run the notebook in `case1/` (the `Evaluation*.ipynb`) to reproduce **Fig. 14** and the Case 1 evaluation outputs.
+4. Check `case2/` for the evaluation results of **Case 2** in the manuscript.
