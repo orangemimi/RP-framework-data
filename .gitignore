@@ -1,9 +1,0 @@
-# Jupyter checkpoints
-**/.ipynb_checkpoints/
-
-# Large data
-*.nc
-*.zip
-*.tif
-*.asc
-
